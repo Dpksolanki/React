@@ -1,6 +1,7 @@
 import "./App.css";
+import About from "./component/About";
 import Deepak from "./component/Deepak";
-import TextForm from "./component/TextForm";
+
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
 
 <div className="container" >
   <div className="mt-3">
-<TextForm heading="Enter The Text to Analysis Below"/>
+<About/>
 </div>
 </div>
 </>
